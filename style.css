@@ -1,0 +1,51 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: black;
+    color: white;
+}
+nav > span {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+nav > button {
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+}
+div#dropdown {
+    width: 100%;
+    height: 0px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+div#dropdown > div {
+    margin-top: 30px;
+}
+div#dropdown > div > a {
+    display: block;
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+h1 {
+    padding: 0px 60px;
+    text-transform: capitalize;
+}
